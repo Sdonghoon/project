@@ -1,0 +1,148 @@
+#donationItem{
+    width: 100%;
+    display: flex;
+}
+
+/* #donationItem > a{
+
+} */
+
+#donation-nav{
+    border: 2px solid black;
+    text-align: center;
+    position:sticky;
+    top:73px;
+    margin-left: 0px;
+}
+
+.nav-product > ul > a > li{
+    height: 30px;
+    padding-top: 5px;
+    transition: all .5;
+}
+
+.nav-product > ul > a > li:hover{
+    background-color:#30344F;
+    color: white;
+}
+
+.nav-dontion > ul > a > li{
+    height: 30px;
+    padding-top: 5px;
+    transition: all .5;
+}
+
+.nav-dontion > ul > a > li:hover{
+    background-color:#30344F;
+    color: white;
+}
+
+.moving-nav{
+    position: sticky;
+    flex: .5;
+    transition: all .35;
+    text-align: center;
+}
+
+
+#donation-content{
+    padding: 10px;
+    display: flex;
+    flex: 5;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#donation-content > a{
+    padding: 5px;
+}
+
+.item{
+    width: 300px;
+    height: 400px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#donation-content>a>.item::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background : rgba(0, 0, 0, .5);
+    z-index: 1;
+    opacity: 0;
+    transition: all .35s;
+}
+
+#donation-content>a:hover>.item::after{
+    opacity: 1;
+}
+
+.imge{
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.imge > img{
+    height: 100%;
+    transition: all .5s;
+}
+
+.item:hover > .imge{
+    border-radius: 0;
+}
+
+.item:hover > .imge > img{
+    border-radius: 0;
+}
+
+
+.product{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.price{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.where{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.visit{
+    position: absolute;
+    bottom: 150%;
+    left: 95px;
+    z-index: 2;
+    color: #fff;
+    font-size:26px;
+    font-weight: 700;
+    transition: all .35s;
+}
+
+a{
+    color: black;
+}
+
+
+#donation-content > a:hover > .item >.visit{
+    bottom: 52%;
+}
