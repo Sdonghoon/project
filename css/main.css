@@ -1,5 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700);
 @import url(http://fonts.googleapis.com/css?family=Cardo:400,400italic,700);
+
+@font-face {
+  font-family: 'paybooc-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -33,21 +40,27 @@ h5 {
   font-weight: 700; }
 
 .btn {
-  background-color: #e84545;
+  background-color: #425033;
   color: #fff;
-  font-size: 13px;
+  font-size: 30px;
   font-weight: 600;
   border: 0;
+  font-family: "paybooc-Bold", sans-serif;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  border-radius: 2px;
+  border-radius: 35px 35px 35px 35px;
+  box-shadow: 3px 5px 15px -3px #000;
   display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 10px 80px;
   text-transform: uppercase; }
   .btn:hover, .btn:focus {
-    background-color: #e52e2e;
+    background-color: #3b462f;
     color: #fff; }
   .btn-large {
-    padding: 15px 40px; }
+    padding: 15px 10
+    0px; }
 
 /* ==========================================================================
 	General Styles
@@ -90,39 +103,99 @@ ul li {
 #header {
   position: fixed;
   width: 100%;
-  z-index: 999; }
+  z-index: 999; 
+  /* background-color: #292c47; */
+  transition: all .35;}
   #header .header-content {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     margin: 0 auto;
     max-width: 1170px;
-    padding: 40px 0;
+    padding: 25px 0;
     width: 100%;
+    height: 75px;
     -moz-transition: padding 0.3s;
     -o-transition: padding 0.3s;
     -webkit-transition: padding 0.3s;
-    transition: padding 0.3s; }
+    transition: all 0.3s; }
   #header .header-content1 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     margin: 0 auto;
     max-width: 1170px;
-    padding: 40px 0;
+    padding: 25px 0;
     width: 100%;
     text-align: center;
     -moz-transition: padding 0.3s;
     -o-transition: padding 0.3s;
     -webkit-transition: padding 0.3s;
-    transition: padding 0.3s; }
+    transition: all 0.3s; }
 
 
   #header .logo {
     float: left; }
+  #logo-text-p {
+    color: gray;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase; 
+    }
 
 #header.fixed {
-  background-color: #292c47; }
+  background-color: #292c47;
+  transition: all .2s;  
+}
   #header.fixed .header-content {
     border-bottom: 0;
-    padding: 25px 0; }
+    }
   #header.fixed .nav-toggle {
+    top: 18px; }
+
+#header1 {
+  position: fixed;
+  width: 100%;
+  background-color: #292c47;
+  z-index: 999; 
+  transition: all .35;}
+  #header1 .header-content {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 25px 0;
+    width: 100%;
+    height: 75px;
+    -moz-transition: padding 0.3s;
+    -o-transition: padding 0.3s;
+    -webkit-transition: padding 0.3s;
+    transition: all 0.3s; }
+  #header1 .header-content1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 25px 0;
+    width: 100%;
+    text-align: center;
+    -moz-transition: padding 0.3s;
+    -o-transition: padding 0.3s;
+    -webkit-transition: padding 0.3s;
+    transition: all 0.1s; }
+
+
+  #header1 .logo {
+    float: left; }
+  #logo-text-p {
+    color: gray;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase; 
+    }
+
+#header1.fixed {
+  background-color: #292c47; }
+  #header1.fixed .header-content {
+    border-bottom: 0;
+    }
+  #header1.fixed .nav-toggle {
     top: 18px; }
 
 .navigation.open {
@@ -272,30 +345,82 @@ ul li {
 /* ==========================================================================
 	$Banner
 ========================================================================== */
+#sub-nav-fill{
+  height: 75px;
+  background-color: #292c47;;
+}
+
+.my-babber-child{
+  width: 20vw;
+}
+
+.my-banner-sec-child{
+  width: 80vw;
+  text-align: center;
+}
+
 .banner {
-  background-image: url(../images/banner.jpg);
+  background-image: url(../images/newbanner.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
-  background-size: cover;
-  min-height: 750px; }
+  background-size:cover;
+  height: 100%;
+  width: 100%;
+}
 
 .banner-text {
-  padding-top: 25%; }
+  padding-top: 5%; 
+  padding-left: 15%;}
   .banner-text h1 {
-    color: #fff;
-    font-family: "Open Sans", sans-serif;
+    color: #323C27;
+    font-family: "paybooc-Bold", sans-serif;
+    font-weight: 300;
+    font-size: 200px;
+    text-transform: uppercase; 
+    right: 0;
+    }
+    .banner-text span {
+      color: #000000;
+      font-family: "paybooc-Bold", sans-serif;
+      font-weight: 700;
+      font-size: 35px;
+      text-transform: uppercase; 
+      }
+  .banner-text h2 {
+    color: #000000;
+    font-family: "paybooc-Bold", sans-serif;
     font-weight: 700;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    display: inline; }
   .banner-text p {
-    color: #fff;
+    color: #000000;
+    font-family: "paybooc-Bold";
     font-size: 22px;
     font-weight: 300;
+    line-height: 1.5;}
+  .banner-text #header-border{
+    color: #000000;
+    font-size: 45px;
+    font-weight: 900;
     line-height: 1.5;
-    margin-bottom: 80px; }
-
+  }
+  .banner-text #header-thin{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  .banner-text #header-p{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 10;
+    line-height: 2;
+    font-family: "Open Sans", sans-serif;
+  }
 /* ==========================================================================
 	$Features
 ========================================================================== */
@@ -308,6 +433,17 @@ ul li {
     color: #e84545;
     font-size: 60px; }
 
+  .container .nav-title{
+    font-size: 50px; 
+    text-align: center; 
+    margin-bottom: 50px; 
+    font-family: 'paybooc-Bold'; 
+    opacity: 0;
+    font-weight: 900; color: #000;
+    transition: all .35s;}
+  .container:hover .nav-title{
+    opacity: 1;
+  }
 /* ==========================================================================
 	$Works
 ========================================================================== */
@@ -375,6 +511,18 @@ ul li {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 
+  #works .nav-title{
+    font-size: 50px; 
+    text-align: center; 
+    margin-bottom: 50px; 
+    font-family: 'paybooc-Bold'; 
+    opacity: 0;
+    font-weight: 900; color: #000;
+    transition: all .35s;}
+  #works:hover .nav-title{
+    opacity: 1;
+  }
+
 /* ==========================================================================
 	$Teams
 ========================================================================== */
@@ -411,6 +559,18 @@ ul li {
       background-color: #e84545;
       border-color: #e84545;
       color: #fff; }
+
+    #teams .nav-title{
+      font-size: 50px; 
+      text-align: center; 
+      margin-bottom: 50px; 
+      font-family: 'paybooc-Bold'; 
+      opacity: 0;
+      font-weight: 900; color: #000;
+      transition: all .35s;}
+    #teams:hover .nav-title{
+      opacity: 1;
+    }
 
 /* ==========================================================================
 	$Testimonials

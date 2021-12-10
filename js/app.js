@@ -179,7 +179,7 @@ const itemList = [
         name : "ed1 아이폰 폰케이스",
         price : "19,500원",
         sponsor : "국내외 위기아동지원사업",
-        sort : "디지털/테그",
+        sort : "디지털/테크",
         webSite : "세이브칠드런"
     },
     {
@@ -188,7 +188,7 @@ const itemList = [
         name : "ed1 갤럭시 폰케이스",
         price : "19,500원",
         sponsor : "국내외 위기아동지원사업",
-        sort : "디지털/테그",
+        sort : "디지털/테크",
         webSite : "세이브칠드런"
     },
     {
@@ -197,7 +197,7 @@ const itemList = [
         name : "ed1 에어팟 케이스",
         price : "13,500원",
         sponsor : "국내외 위기아동지원사업",
-        sort : "디지털/테그",
+        sort : "디지털/테크",
         webSite : "세이브칠드런"
     },
     {
@@ -206,7 +206,7 @@ const itemList = [
         name : "ed1 에어팟 프로 케이스",
         price : "13,500원",
         sponsor : "국내외 위기아동지원사업",
-        sort : "디지털/테그",
+        sort : "디지털/테크",
         webSite : "세이브칠드런"
     },
     {
@@ -215,7 +215,7 @@ const itemList = [
         name : "ed1 버즈 케이스",
         price : "13,500원",
         sponsor : "국내외 위기아동지원사업",
-        sort : "디지털/테그",
+        sort : "디지털/테크",
         webSite : "세이브칠드런"
     },
     {
@@ -398,6 +398,231 @@ const itemList = [
         sort : "의류",
         webSite : "굿네이버스"
     },
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=222&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=bm99W1w%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/008001000001.jpg?1583218474",
+        name : "WATER KEY NECKLACE BLACK",
+        price : "13,900",
+        sponsor : "식수지원사업",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    },
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=223&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=bmx7W10%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/008001000002.jpg?1583218474",
+        name : "WATER KEY NECKLACE GOLD",
+        price : "13,900원",
+        sponsor : "식수 지원",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    },
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=3587679&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=aGx3Uw%3D%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/008001000027.jpg?1632890911",
+        name : "SERENITY DOVE NECKLACE",
+        price : "54,900원",
+        sponsor : "인신매매 피해생존자 지원",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=3587681&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=bm54W18%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/008001000029.jpg?1633667835",
+        name : "SPARROW GOLD NECKLACE",
+        price : "58,900원",
+        sponsor : "인신매매 피해생존자 지원",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=3587682&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=bm55W1g%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/008001000030.jpg?1633667977",
+        name : "SPARROW NECKLACE",
+        price : "58,900원",
+        sponsor : "인신매매 피해생존자 지원",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=3587680&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=bm17W1k%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/008001000028.jpg?1632892377",
+        name : "JUSTICE BAR NECKLACE",
+        price : "64,900원",
+        sponsor : "인신매매 피해생존자 지원",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    },
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=3543270&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=bm11W11G",
+        img : "http://befriendmarket.com/shopimages/bi123/002004000041.jpg?1585813978",
+        name : "ALWAYS IN MY HEART SILVER",
+        price : "34,000원",
+        sponsor : "1% For The Planet 지원",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    },
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=3543277&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=aGZ3UF8%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/002004000044.jpg?1585815093",
+        name : "BELIEVE SILVER",
+        price : "34,000원",
+        sponsor : "1% For The Planet 지원",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=3543276&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=bm1%2FW11M",
+        img : "http://befriendmarket.com/shopimages/bi123/002004000043.jpg?1585814874",
+        name : "ALWAYS IN MY HEART GOLD",
+        price : "39,000원",
+        sponsor : "1% For The Planet 지원",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=3578390&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=Zmd3U1w%3D",
+        img :"http://befriendmarket.com/shopimages/bi123/009001000011.jpg?1617946189",
+        name : "CREAM SILVER STAR RING",
+        price : "6,000원",
+        sponsor : "유기동물 지원",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=3581020&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=Z213U10%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/009001000004.jpg?1621834704",
+        name : "CREAM GOLD STAR RING",
+        price : "6,000원",
+        sponsor : "유기동물 지원",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=3578190&xcode=021&mcode=001&scode=&type=Y&sort=manual&cur_code=021001&GfDT=bml7W15G",
+        img : "http://befriendmarket.com/shopimages/bi123/009001000009.jpg?1617946388",
+        name : "CREAM GOLD HEART RING",
+        price : "6,000원",
+        sponsor : "유기동물 지원 ",
+        sort : "주얼리",
+        webSite : "비프렌더스"
+    },
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=241&xcode=023&mcode=003&scode=&type=Y&sort=manual&cur_code=023003&GfDT=bmV8VA%3D%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/001003000005.jpg?1583218475",
+        name : "PENGUIN",
+        price : "17,500원",
+        sponsor : "유기동물 지원",
+        sort : "의류",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=240&xcode=023&mcode=003&scode=&type=Y&sort=manual&cur_code=023003&GfDT=bG53UFo%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/001003000007.jpg?1583218475",
+        name : "MOONLIGHT (WHITE)",
+        price : "17,500원",
+        sponsor : "유기동물 지원",
+        sort : "의류",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http :"http://befriendmarket.com/shop/shopdetail.html?branduid=201&xcode=023&mcode=001&scode=&type=Y&sort=manual&cur_code=023001&GfDT=Zmd3Ug%3D%3D", 
+        img : "http://befriendmarket.com/shopimages/bi123/001002000036.jpg?1583218477",
+        name : "SMILE GREEN ECO BAG",
+        price : "9,000원",
+        sponsor : "국내 결식아동 지원",
+        sort : "가방",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=86&xcode=023&mcode=001&scode=&type=Y&sort=manual&cur_code=023001&GfDT=aWt3VQ%3D%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/001002000030.jpg?1583218477",
+        name : "RELAY ECO BAG BLESSED",
+        price : "7,700원",
+        sponsor : "국내 결식아동 지원",
+        sort : "가방",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=88&xcode=023&mcode=001&scode=&type=Y&sort=manual&cur_code=023001&GfDT=Z2Z3VA%3D%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/001002000034.jpg?1583218477",
+        name : "RELAY ECO BAG STRENGTH",
+        price : "7,700원",
+        sponsor : "국내 결식아동 지원",
+        sort : "가방",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=3587909&xcode=023&mcode=002&scode=&type=Y&sort=manual&cur_code=023002&GfDT=aW53UA%3D%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/001001000031.jpg?1633499109",
+        name : "NUREE BEANIE GRAY",
+        price : "17,010원",
+        sponsor : "유기동물 지원",
+        sort : "의류",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=136&xcode=023&mcode=002&scode=&type=Y&sort=manual&cur_code=023002&GfDT=bG13Uw%3D%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/001001000002.jpg?1583218468",
+        name : "BASEBALL BLACK",
+        price : "12,000원",
+        sponsor : "국내 결식아동 지원",
+        sort : "의류",
+        webSite : "비프렌더스"
+    }, 
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=135&xcode=023&mcode=002&scode=&type=Y&sort=manual&cur_code=023002&GfDT=bm18W18%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/001001000003.jpg?1583218468",
+        name : "BASEBALL WHITE",
+        price : "12,000원",
+        sponsor : "국내 결식아동 지원",
+        sort : "의류",
+        webSite : "비프렌더스"
+    },
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=185&xcode=012&mcode=001&scode=&type=X&sort=manual&cur_code=012001&GfDT=ZmZ3UFg%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/012001000013.jpg?1583218478",
+        name : "BOOKMARK YOU GOT THIS",
+        price : "28,000원",
+        sponsor : "국내 결식아동 지원",
+        sort : "기타",
+        webSite : "비프렌더스"
+    },
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=184&xcode=012&mcode=001&scode=&type=X&sort=manual&cur_code=012001&GfDT=bG13UF0%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/012001000010.jpg?1583218478",
+        name : "BOOKMARK ALL LOVE NEEDS IS YOU",
+        price : "28,000원",
+        sponsor : "국내 결식아동 지원",
+        sort : "기타",
+        webSite : "비프렌더스"
+    },
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=93&xcode=012&mcode=001&scode=&type=X&sort=manual&cur_code=012001&GfDT=b2V8Vw%3D%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/012001000016.jpg?1583218478",
+        name : "MAYDAY CORD BLACK",
+        price : "3,900원",
+        sponsor : "폭력 피해 여성, 아동 지원",
+        sort : "디지털/테크",
+        webSite : "비프렌더스"
+    },
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=72&xcode=012&mcode=001&scode=&type=X&sort=manual&cur_code=012001&GfDT=Zm13U18%3D",
+        img : "http://befriendmarket.com/shopimages/bi123/012001000028.jpg?1583218478",
+        name : "KRAFT WHITE NOTE",
+        price : "4,500원",
+        sponsor : "해외 빈곤아동 지원",
+        sort : "기타",
+        webSite : "비프렌더스"
+    },
+    {
+        http : "http://befriendmarket.com/shop/shopdetail.html?branduid=220&xcode=012&mcode=001&scode=&type=X&sort=manual&cur_code=012001&GfDT=bml8W11N",
+        img : "http://befriendmarket.com/shopimages/bi123/012001000024.jpg?1583218478",
+        name : "POLAR BEAR STICKER",
+        price : "2,500원",
+        sponsor : "	멸종위기동물 지원",
+        sort : "기타",
+        webSite : "비프렌더스"
+    },
 ]
 
 let bagItem = [];
@@ -410,13 +635,14 @@ let anyItem = [];
 let goodBusItem = [];
 let saveChildItem = [];
 let christmasItem = [];
+let befriendItem = [];
 
 for(let i=0; i<itemList.length; i++){
     if(itemList[i].sort == "가방"){
         bagItem.push(itemList[i])
     }else if(itemList[i].sort == "생활"){
         lifeItem.push(itemList[i])
-    }else if(itemList[i].sort == "디지털/테그"){
+    }else if(itemList[i].sort == "디지털/테크"){
         digitalItem.push(itemList[i])
     }else if(itemList[i].sort == "세트"){
         setItem.push(itemList[i])
@@ -436,9 +662,9 @@ for(let i=0; i<itemList.length; i++){
         christmasItem.push(itemList[i])
     }else if(itemList[i].webSite == "세이브칠드런"){
         saveChildItem.push(itemList[i])
-    }//else if(itemList[i].webSite == "세트"){
-    //     setItem.push(itemList[i])
-    // }
+    }else if(itemList[i].webSite == "비프렌더스"){
+        befriendItem.push(itemList[i])
+    }
 }
 
 
@@ -480,10 +706,6 @@ function allItem(i, list){
     newVisit.className = "visit";
     newVisit.innerHTML = "방문하기"
 }
-
-// for(let a=0; a<itemList.length; a++){
-//     allItem(a, itemList);
-// }
 
 function all(){
     for(let a=0; a<itemList.length; a++){
@@ -548,5 +770,11 @@ function christmas(){
 function saveChild(){
     for(let a=0; a<saveChildItem.length; a++){
         allItem(a, saveChildItem);
+    }
+}
+
+function befriend(){
+    for(let a=0; a<befriendItem.length; a++){
+        allItem(a, befriendItem);
     }
 }

@@ -11,17 +11,22 @@
     border: 2px solid black;
     text-align: center;
     position:sticky;
-    top:73px;
+    top:100px;
     margin-left: 0px;
+    border-radius: 10px;
+}
+
+#donation-nav h3{
+    font-weight: 900;
 }
 
 .nav-product > ul > a > li{
     height: 30px;
     padding-top: 5px;
-    transition: all .5;
+    transition: all .35s;
 }
 
-.nav-product > ul > a > li:hover{
+.nav-product > ul > a:hover > li{
     background-color:#30344F;
     color: white;
 }
@@ -29,10 +34,10 @@
 .nav-dontion > ul > a > li{
     height: 30px;
     padding-top: 5px;
-    transition: all .5;
+    transition: all .35s;
 }
 
-.nav-dontion > ul > a > li:hover{
+.nav-dontion > ul > a:hover > li{
     background-color:#30344F;
     color: white;
 }
@@ -40,7 +45,7 @@
 .moving-nav{
     position: sticky;
     flex: .5;
-    transition: all .35;
+    margin: 0 1vw;
     text-align: center;
 }
 
@@ -51,6 +56,7 @@
     flex: 5;
     flex-wrap: wrap;
     justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, .2);
 }
 
 #donation-content > a{
@@ -145,4 +151,8 @@ a{
 
 #donation-content > a:hover > .item >.visit{
     bottom: 52%;
+}
+
+.overview{
+    overflow: hidden;
 }

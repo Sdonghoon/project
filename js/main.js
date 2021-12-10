@@ -10,6 +10,16 @@ $(document).ready(function() {
 		}
 	});
 
+	$(window).on('scroll', function() {
+		var scroll = $(window).scrollTop();
+
+		if (scroll >= 50) {
+			$('#header1').addClass('fixed');
+		} else {
+			$('#header1').removeClass('fixed');
+		}
+	});
+
 	// Waypoints
 	$('.work').waypoint(function() {
 		$('.work').addClass('animated fadeIn');

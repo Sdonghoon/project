@@ -88,3 +88,13 @@
         sort : "",
         webSite : "굿네이버스"
     },
+
+
+col-lg-3{
+    width :50%; 
+    float:left;
+    position:relative;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px
+}
